@@ -1,7 +1,6 @@
-value = input("Masukkan angka: ")
-if len(value) > 0:
-	hasil = sum(i for i in range(int(value)) if i % 3 == 0 or i % 5 == 0)
-	print(hasil)
+number = input("Insert the number: ")
+if len(number) > 0 and number.isnumeric():
+	print(sum(i for i in range(int(number)) if i % 3 == 0 or i % 5 == 0))	
 else:
-  print("empty")
+  print("Number invalid")
 
