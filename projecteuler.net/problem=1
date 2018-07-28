@@ -1,0 +1,7 @@
+value = input("Masukkan angka: ")
+if len(value) > 0:
+	hasil = sum(i for i in range(int(value)) if i % 3 == 0 or i % 5 == 0)
+	print(hasil)
+else:
+  print("empty")
+
