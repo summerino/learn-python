@@ -1,2 +1,2 @@
 # learn-python
-Learn Python
+Solving project euler using python
